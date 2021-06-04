@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ambientados</title>
+</head>
+<body>
+    <div id="bg-img"></div>
+    <div id="content">
+        <!----------------- MENU ---------------------->
+        <div id="card_home">
+            <div id="imagem">
+                <img src="img/logo_amb_corte.jpg" alt="Logo-Ambientados" width="100%">
+                <img src="img/pev-logo.png" alt="Logo-PEV" width="80%">
+            </div>
+            <div id="interface">
+                <h1>Bem-Vindo(a)</h1>
+                <div id="btns">
+                    <button id="jogar">JOGAR</button>
+                    <button id="highscores" onclick="buscarConteudo()">HIGHSCORES</button>
+                    <button id="regras">REGRAS</button>
+                    <button id="sobre">SOBRE</button>
+                </div>
+            </div>
+        </div>
+        <!----------------- MENU ---------------------->
+
+        <!----------------- JOGAR --------------------->
+        <div id="card_jogar">
+            <div id="modos">
+                <a href="classico.html">
+                    <div id="md_class">
+                        <div class="mid">
+                            <h2>Modo Clássico</h2>
+                            <h4>
+                                Faça a maior pontuação sem se preocupar com tempo
+                            </h4>
+                        </div>
+                        <div class="bottom">
+                            <h2>JOGAR</h2>                        
+                        </div>
+                    </div>
+                </a>
+
+                <a href="contra_tempo.html">
+                    <div id="md_tempo">
+                        <div class="mid">
+                            <h2>Modo Contra o Tempo</h2>
+                            <h4>
+                                Você consegue responder rápido?
+                            </h4>
+                        </div>
+                        <div class="bottom">
+                            <h2>JOGAR</h2>    
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div id="btn3">
+                <button id="princip">MENU</button>
+            </div>
+        </div>
+        <!----------------- JOGAR --------------------->
+
+        <!----------------- SCORES --------------------->
+        <div id="card_scores">
+            <div id="elmts">
+                <h2>HIGHSCORES</h2>
+                <div id="tabela">
+                    <table>
+                        <th>NOME</th>
+                        <th>PONTOS</th>
+                        <th>CLASSIFICAÇÃO</th>
+                        <tbody id="corpoTabela">
+                    
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+            <div id="btn5">
+                <button id="schome">MENU</button>
+            </div>
+
+        </div>
+        <!----------------- SCORES --------------------->
+
+        <!---------------- REGRAS --------------------->
+        <div id="card_regras">
+            <div id="corpo">
+                <div id="classico">
+                    <h2>Modo Clássico</h2>
+                    <h4>1. Não existe período de tempo para responder a questão.</h4>
+                    <h4>2. Só há uma alternativa correta.</h4>
+                    <h4>3. Cada acerto gera uma pontuação de 10.</h4>
+                    <h4>4. Ao final salve seu resultado.</h4>
+                </div>
+                <hr>
+                <div id="tempo">
+                    <h2>Modo Contra o Tempo</h2>
+                    <h4>1. Responda corretamente dentro do tempo de 20seg.</h4>
+                    <h4>2. Só há uma alternativa correta.</h4>
+                    <h4>3. Ao marcar uma alternativa incorreta, o jogo é encerrado.</h4>
+                    <h4>4. Se o crônometro atingir 20seg, o jogo é encerrado.</h4>
+                </div>
+            </div>
+            <div id="btn">
+                <button id="home">MENU</button>
+            </div>
+        </div>
+        <!---------------- REGRAS --------------------->
+
+     <!----------------- SOBRE --------------------->
+        <div id="card_sobre">
+            <div id="info">
+                <h2>Sobre</h2>
+                <p>
+                    Ambientados é um jogo quiz desenvolvido dentro do Núcleo Temático de Educação Ambinetal Interdisciplinar do
+                    Projeto Escola Verde, com intuito de proporcionar o conhecimento para as crianças sobre a importância que o meio
+                    ambiente exerce sobre a sociedade. Sabe-se que nos dias atuais a conexão entre crianças, meio ambiente e futuro
+                    não pode ser ignorada, assim é fundamental que as crianças tenham um conhecimento sobre a sustentabilidade e a 
+                    importância de construir um futuro mais limpo para as próximas gerações, pois o futuro da sociedade são as crianças.
+                </p>
+                <h2>Créditos</h2>
+                <h4>Todas as questões do nosso banco foram criadas a partir das postagens feitas no instagram do PEV.</h4>
+            </div>
+            <div id="org">
+                <div id="dev">
+                    <h2>Desenvolvedores</h2>
+                    <h4>André Golçalves | Edon Brendon | Jules Bomfim | Marcos Felipe | Paulo Lucas </h4>
+                </div>
+                <div id="pev">
+                    <h2>Orientação</h2>
+                    <h4>Paulo Roberto Ramos | escolaverde.org</h4>
+                </div>
+            </div>
+            <div id="btn2">
+                <button id="menu">MENU</button>
+            </div>
+        </div>
+        <!----------------- SOBRE --------------------->
+
+    </div>
+<!---------------- CONTENT --------------------->
+<script src="js/script.js"></script>
+</body>
+</html>
