@@ -127,7 +127,7 @@ let MCQS = [{
             answer: 2
 },
 {
-    question: "Algumas frutas fazem bem para a saúde bucal e uma delas está listada abaixo pois podemos utilizar tanto sua casca como sua polpa como bactericida, antioxidante, antisséptico, contra aftas e candidíase. Marque a alternativa na qual está esta fruta que faz bem à saúde bucal." ,
+    question: "Algumas frutas fazem bem para a saúde bucal e uma delas está listada abaixo.Podemos utilizar sua casca e sua polpa como bactericida, antioxidante, antisséptico, contra aftas e candidíase. Qual fruta é essa?." ,
             choice1: "Romã",
             choice2: "Tomate",
             choice3: "Alface",
@@ -151,7 +151,7 @@ let MCQS = [{
             answer: 2
 },
 {
-    question: "Os agrotóxicos são bem ruins para o meio ambiente e também para as pessoas que são expostas a ele. Devido a essa exposição algumas doenças podem causar alterações no sistema nervoso central( SNC). Qual das opções abaixo é um exemplo de uma doença no SNC?",
+    question: "Os agrotóxicos são ruins para o meio ambiente e para as pessoas expostas a ele. Devido a exposição, algumas doenças podem causar alterações no sistema nervoso central(SNC). Qual das opções é um exemplo de uma doença no SNC?",
             choice1: "Doença de Parkinson",
             choice2: "Derrame cerebral",
             choice3: "Infarto",

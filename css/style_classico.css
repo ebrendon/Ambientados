@@ -122,6 +122,7 @@ h4,p{
 }
 
 #regras h4{
+    margin-bottom: 2%;
     height: 10%;
     width: 100%;
     display: flex;
@@ -449,6 +450,7 @@ h4,p{
         height: 5%;
         margin-bottom: 0;
     }
+    
     #card .top-card h4{
         font-size: 14px;
     }
@@ -457,26 +459,23 @@ h4,p{
         margin-top: 0;
         height: 27%;
         top: 5%;
-        border: 1px solid black;
     }
 
     #card .qst-card h2{
-        font-size: 13px;
+        font-size: 14px;
          
     }
 
     #card #alt-list{
-        border: 1px solid blue;
         height: 55%;
         padding: 0 1% 0 1%;
         top: 32%;
-        bottom: 15%;
-        
+        /* bottom: 15%; */        
     }
 
     #card #alt-list h4{
         /* font-family: 'Oswald', sans-serif; */
-        font-size: 12px;
+        font-size: 14px;
         width: 100%;
         height: auto;
         min-height: 20%;
