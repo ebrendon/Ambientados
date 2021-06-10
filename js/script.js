@@ -21,8 +21,13 @@ let card_regras = document.querySelector('#card_regras');
 let home = document.querySelector('#home');
 
 //Sobre
-let cars_sobre = document.querySelector('#card_sobre');
+let card_sobre = document.querySelector('#card_sobre');
+let btorg = document.querySelector('#btorg');
 let menu = document.querySelector('#menu');
+
+//ORG
+let card_org = document.querySelector('#card_org');
+let voltarsobre = document.querySelector('#voltar-sobre');
 
 //O que acontece ao clicar em jogar no menu prinicpal
 jogarBTN.addEventListener("click", ()=>{
@@ -55,6 +60,17 @@ sobreBTN.addEventListener("click", ()=>{
 menu.addEventListener("click", ()=>{
     card_home.style.display = "flex";
     card_sobre.style.display = "none";
+});
+
+
+btorg.addEventListener("click", ()=>{
+    card_sobre.style.display = "none";
+    card_org.style.display = "block";
+});
+
+voltarsobre.addEventListener("click", ()=>{
+    card_sobre.style.display = "block";
+    card_org.style.display = "none";
 });
 
 //Ao clicar em highscores

@@ -26,7 +26,7 @@ h1,h2{
     font-family: 'Oswald', sans-serif;
 }
 
-h4,p{
+h5,h4,p{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -120,6 +120,10 @@ button:hover{
     font-weight: 700;
     font-size: 40px;
     color:#fff;
+}
+
+#interface h5{
+    color:#fff; 
 }
 
 #interface #btns{
@@ -386,6 +390,7 @@ td{
     height: 50%;
     align-items: center;    
     padding: 2%;
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -396,54 +401,12 @@ td{
 #info p{
     font-size: 15px;
     font-weight: 700;
-    width: 98%;
+    width: 80%;
 }
 
-#card_sobre #org{
-    display: flex;
-    flex-direction: column;  
-    width: 100%;
-    height: 35%;
-    text-align: center;
-    align-items: center;   
-}
-#org #dev{
-    display: flex;
-    flex-direction: column;  
-    width: 100%;
-    height: 50%;
-    align-items: center;    
-}
-
-#dev h2,h4{
-    margin-bottom: 1%;
-}
-
-#org #pev{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 50%;
-    align-items: center;  
-}
-#pev h2{
-    text-align: center;
-}
-
-#pev h4{
-    text-align: center;
-}
-
-#pev #pevlogo{
-    width: 50%;
-    height: 30%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-  
-#pevlogo img{
-    max-width: 80%;
+#info h5{
+    margin-top: 8%;
+    font-size: 16px;
 }
 
 #card_sobre #btn2{
@@ -456,7 +419,63 @@ td{
     position: absolute;
     bottom: 0;
 }
+
+#btn2 #btorg{
+    margin-right: 2%; 
+}
 /* ------------------------------ SOBRE ------------------------------------*/
+/* ------------------------------ ORG ------------------------------------*/
+#content #card_org{
+    display: none;
+    flex-direction: column;
+    height: 80%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #19916B;
+    color: #fff;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#card_org #org2{
+    display: flex;
+    flex-direction: column;  
+    width: 100%;
+    height: 85%;
+    align-items: center;    
+    padding: 2%;
+    padding-top: 5%;
+    text-align: center;
+    position: absolute;
+}
+
+#org2 h2{
+    margin-bottom: 10px;
+}
+#org2 #devs{
+    height: 70%;
+}
+
+#org2 #copy{
+    padding-top: 5%;
+    height: 30%;
+}
+
+
+#card_org #btn-org{
+    display: flex;
+    height: 15%;
+    width: 100%;
+    padding-right: 1%;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+}
+
+/* ------------------------------ ORG ------------------------------------*/
+
 
 
 /* MEDIA QUERIES PARA DISPOSITIVOS */
@@ -563,7 +582,7 @@ td{
     #content #card_sobre{
         height: 100%;
         width: 100%;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     #card_sobre #info{
@@ -581,18 +600,26 @@ td{
     #info p,h4{
         font-size: 12px;
     }
-
-    #card_sobre #org{
-        height: 30%;
-        flex-direction: column;  
-        align-items: center;    
-        padding: 1%;
+    #info h5{
+        margin-top: 15%;
+        font-size: 12px;
     }
 
     #card_sobre #btn2{
-        height: 10%;
         justify-content: center;
         margin-right: 0;
+    }
+
+    #content #card_org{
+        height: 100%;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #card_org #btn-org{
+        height: 10%;
+        justify-content: center;
+        margin-right: 0; 
     }
 }
 
