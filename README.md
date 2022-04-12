@@ -1,4 +1,7 @@
 # Ambientados
+
+![Ambientados](/img/logo_amb_corte.jpg)
+
 Jogo Quiz desenvolvido para o Projeto Escola Verde - UNIVASF
 
 
